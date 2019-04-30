@@ -1,7 +1,7 @@
 class Person
   attr_reader :name,
               :job
-  def initialize(name, job)
+  def initialize(name = "Sam", job = "janitor")
     @name = name
     @job = job
   end
